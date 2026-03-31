@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Young & Strong helpt jongeren met sport, mindset en creatieve workshops. Voor persoonlijke groei, zelfvertrouwen en toekomstontwikkeling.">
+    <title>Young and Brave</title>
+
+    <!-- Connecties -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader" class="loader">
+      <div class="loader-content">
+        <div class="loader-logo">
+          <div class="loader-circle">
+            <span>YB</span>
+          </div>
+        </div>
+        <div class="loader-text">
+          <span class="loader-word">Young</span>
+          <span class="loader-ampersand">&</span>
+          <span class="loader-word">Brave</span>
+        </div>
+        <div class="loader-bar">
+          <div class="loader-progress"></div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <div class="logo-circle">YB</div>
+          <span class="logo-text">Young & Brave</span>
+        </a>
+        
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="overOns.html" class="nav-link">Over ons</a>
+          <a href="activiteiten.html" class="nav-link">Activiteiten</a>
+          <a href="voorJongeren.html" class="nav-link">Voor jongeren</a>
+          <a href="partners.html" class="nav-link">Partners</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        
+        <a href="contact.html" class="nav-cta">Aanmelden</a>
+        
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="overOns.html" class="mobile-link">Over ons</a>
+        <a href="activiteiten.html" class="mobile-link">Activiteiten</a>
+        <a href="voorJongeren.html" class="mobile-link">Voor jongeren</a>
+        <a href="partners.html" class="mobile-link">Partners</a>
+        <a href="contact.html" class="mobile-link">Contact</a>
+        <a href="contact.html" class="mobile-cta">Aanmelden</a>
+    </div>
+
+    <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <div class="hero-blob hero-blob-3"></div>
+    </div>
+    <div class="hero-diagonal"></div>
+    
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-icon">✨</span>
+            <span>voor jongeren die meer uit zichzelf willen halen</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Word <span class="highlight">Young</span> & <span class="highlight">Brave</span>
+          </h1>
+          
+          <p class="hero-text">
+            Ontdek je kracht, ontwikkel je talenten en maak impact. Bij Young & Brave creëren we een veilige plek waar jongeren groeien door sport, creativiteit en persoonlijke ontwikkeling.
+          </p>
+          
+          <div class="hero-buttons">
+            <a href="activiteiten.html" class="btn btn-primary">
+              Ontdek onze activiteiten
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="overOns.html" class="btn btn-secondary">Meer over ons</a>
+          </div>
+          
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <div>
+                <p class="hero-stat-number">500+</p>
+                <p class="hero-stat-label">Jongeren</p>
+              </div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-icon hero-stat-icon--yellow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </div>
+              <div>
+                <p class="hero-stat-number">50+</p>
+                <p class="hero-stat-label">Workshops</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-images">
+          <div class="hero-image-grid">
+            <div class="hero-image-main">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" alt="Jongeren samen actief">
+            </div>
+            <div class="hero-image-small">
+              <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&q=80" alt="Creatieve workshop">
+            </div>
+            <div class="hero-image-small">
+              <img src="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?w=400&q=80" alt="Team activiteit">
+            </div>
+          </div>
+          <div class="hero-deco hero-deco-1"></div>
+          <div class="hero-deco hero-deco-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About Section -->
+<section id="over-ons" class="about">
+  <div class="about-rings">
+    <div class="about-ring"></div>
+    <div class="about-ring"></div>
+    <div class="about-ring"></div>
+    <div class="about-ring"></div>
+    <div class="about-ring"></div>
+    <div class="about-ring"></div>
+  </div>
+  
+  <div class="container">
+    <div class="section-header section-header--light">
+      <span class="section-badge section-badge--yellow">Over Young & Brave</span>
+      <h2 class="section-title">Wij geloven in de kracht van <span class="text-yellow">jongeren</span></h2>
+      <p class="section-text">Young & Brave is een initiatief dat jongeren helpt om hun potentieel te ontdekken. Door sport, creativiteit en persoonlijke ontwikkeling bouwen we samen aan een toekomst vol mogelijkheden.</p>
+    </div>
+    
+    <div class="about-cards">
+      <div class="about-card">
+        <div class="about-card-icon about-card-icon--yellow">🎯</div>
+        <h3 class="about-card-title">Onze Missie</h3>
+        <p class="about-card-text">Jongeren empoweren om hun eigen pad te vinden door middel van sportieve uitdagingen, creatieve expressie en persoonlijke groei. We creëren een omgeving waar fouten maken mag en waar elke stap vooruit telt.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon about-card-icon--blue">👁️</div>
+        <h3 class="about-card-title">Onze Visie</h3>
+        <p class="about-card-text">Een wereld waarin elke jongere de tools heeft om zelfverzekerd en resilient door het leven te gaan. Waarin persoonlijke groei, verbinding en plezier hand in hand gaan met het ontwikkelen van essentiële levensvaardigheden.</p>
+      </div>
+    </div>
+    
+    <div class="values-header">
+      <h3 class="values-title">Onze Kernwaarden</h3>
+      <p class="values-subtitle">Dit staat centraal in alles wat we doen</p>
+    </div>
+    
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <h4 class="value-title">Verbinding</h4>
+        <p class="value-text">We creëren een warme community waar iedereen zichzelf kan zijn.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+        </div>
+        <h4 class="value-title">Groei</h4>
+        <p class="value-text">Ontdek nieuwe talenten en ontwikkel je persoonlijke vaardigheden.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+        </div>
+        <h4 class="value-title">Energie</h4>
+        <p class="value-text">Sportieve en creatieve activiteiten die energie geven.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h4 class="value-title">Veiligheid</h4>
+        <p class="value-text">Een veilige plek waar je vrijuit kan zijn en experimenteren.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Activities Section -->
+<section id="activiteiten" class="activities">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge section-badge--blue">Activiteiten & Workshops</span>
+      <h2 class="section-title">Ontdek wat bij <span class="text-yellow">jou</span> past</h2>
+      <p class="section-text">Van sportieve uitdagingen tot creatieve workshops - er is voor ieder wat wils!</p>
+    </div>
+    
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">Alles</button>
+      <button class="filter-btn" data-filter="sport">Sport</button>
+      <button class="filter-btn" data-filter="mindset">Mindset</button>
+      <button class="filter-btn" data-filter="creatief">Creatief</button>
+      <button class="filter-btn" data-filter="events">Events</button>
+    </div>
+    
+    <div class="activities-grid" id="activitiesGrid">
+      <!-- Activities will be loaded by JS -->
+    </div>
+    
+    <div class="activities-cta">
+      <a href="contact.html" class="btn btn-primary">
+        Meld je aan voor een activiteit
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Activity Modal -->
+<div class="modal" id="activityModal">
+  <div class="modal-overlay"></div>
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Sluiten">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="modal-body" id="modalBody">
+      <!-- Modal content loaded by JS -->
+    </div>
+  </div>
+</div>
+
+<!-- For Youth Section -->
+<section id="voor-jongeren" class="for-youth">
+  <div class="for-youth-bg">
+    <div class="for-youth-blob for-youth-blob-1"></div>
+    <div class="for-youth-blob for-youth-blob-2"></div>
+  </div>
+  
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge section-badge--yellow">Voor Jongeren</span>
+      <h2 class="section-title">Jij bent de <span class="text-blue">toekomst</span></h2>
+      <p class="section-text">Bij Young & Brave draait alles om jou. Ontdek wat we voor je kunnen betekenen!</p>
+    </div>
+    
+    <div class="for-youth-grid">
+      <div class="benefits-section">
+        <h3 class="benefits-title">Wat krijg jij van ons?</h3>
+        <div class="benefits-list">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <p class="benefit-text">Professionele begeleiding en coaching</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <p class="benefit-text">Nieuwe vrienden maken in een veilige omgeving</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <p class="benefit-text">Ontwikkel je talenten en vaardigheden</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <p class="benefit-text">Toegang tot exclusieve events</p>
+          </div>
+        </div>
+        
+        <div class="stats-row">
+          <div class="stat-box stat-box--navy">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            <p class="stat-number">500+</p>
+            <p class="stat-label">Actieve leden</p>
+          </div>
+          <div class="stat-box stat-box--blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <p class="stat-number">4.9</p>
+            <p class="stat-label">Gemiddelde rating</p>
+          </div>
+          <div class="stat-box stat-box--yellow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+              <polyline points="17 6 23 6 23 12"/>
+            </svg>
+            <p class="stat-number">95%</p>
+            <p class="stat-label">Zou aanraden</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="for-youth-image">
+        <div class="for-youth-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" alt="Jongeren samen">
+        </div>
+        <div class="whatsapp-card">
+          <div class="whatsapp-icon">💬</div>
+          <div>
+            <p class="whatsapp-title">Direct contact</p>
+            <p class="whatsapp-text">Via WhatsApp</p>
+          </div>
+          <p class="whatsapp-desc">Heb je vragen? Stuur ons een berichtje, we reageren supersnel!</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="testimonials-section">
+      <h3 class="testimonials-title">Wat zeggen andere jongeren?</h3>
+      <p class="testimonials-subtitle">Lees de ervaringen van onze community</p>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">Dankzij Young & Brave heb ik mijn zelfvertrouwen teruggevonden. De workshops zijn echt top!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Lisa" class="testimonial-avatar">
+            <p class="testimonial-name">Lisa, 19</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">De basketbal toernooien zijn de highlight van mijn week. Geweldige sfeer en leuke mensen!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Mohamed" class="testimonial-avatar">
+            <p class="testimonial-name">Mohamed, 21</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">Ik heb zoveel nieuwe vrienden gemaakt en mijn creatieve kant ontdekt door de art workshops.</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Emma" class="testimonial-avatar">
+            <p class="testimonial-name">Emma, 18</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="for-youth-cta">
+      <a href="contact.html" class="btn btn-navy">
+        Doe mee!
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+          <polyline points="17 6 23 6 23 12"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-rings">
+    <div class="footer-ring"></div>
+    <div class="footer-ring"></div>
+    <div class="footer-ring"></div>
+    <div class="footer-ring"></div>
+  </div>
+  
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-circle">YB</div>
+          <span class="footer-logo-text">Young & Brave</span>
+        </div>
+        <p class="footer-text">Empowering jongeren om hun potentieel te ontdekken door sport, creativiteit en persoonlijke ontwikkeling. Samen bouwen we aan een toekomst vol mogelijkheden.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4 class="footer-title">Navigatie</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overOns.html">Over ons</a></li>
+          <li><a href="activiteiten.html">Activiteiten</a></li>
+          <li><a href="voorJongeren.html">Voor jongeren</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4 class="footer-title">Activiteiten</h4>
+        <ul>
+          <li><a href="activiteiten.html">Sport</a></li>
+          <li><a href="activiteiten.html">Mindset</a></li>
+          <li><a href="activiteiten.html">Creatief</a></li>
+          <li><a href="activiteiten.html">Events</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4 class="footer-title">Informatie</h4>
+        <ul>
+          <li><a href="#" onclick="alert('Binnenkort beschikbaar!')">Privacybeleid</a></li>
+          <li><a href="#" onclick="alert('Binnenkort beschikbaar!')">Algemene voorwaarden</a></li>
+          <li><a href="#" onclick="alert('Binnenkort beschikbaar!')">Cookiebeleid</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-content">
+        <p class="footer-credit">
+          Gemaakt met <span>❤️</span> door Young & Brave Team
+        </p>
+        <p class="footer-copyright">© 2026 Young & Brave. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/31682370642?text=Hoi!%20Ik%20heb%20een%20vraag%20over%20Young%20%26%20Brave." 
+   target="_blank" 
+   class="whatsapp-btn" 
+   aria-label="Contact via WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <span class="whatsapp-tooltip">Chat met ons!</span>
+</a>
+
+<!-- scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
