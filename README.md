@@ -1,1 +1,0 @@
-# YoungAndStrong.github.io
