@@ -1812,6 +1812,19 @@ button {
     .backstory-text {
       padding: 1.5rem;
     }
+
+      .partners-story-content {
+        padding: 1.5rem;
+      }
+    
+      .partners-story-grid {
+        grid-template-columns: 1fr;
+      }
+    
+      .partners-story-block {
+        padding: 1.25rem;
+      }
+    
   }
   
   /* Zorg dat de sectie niet achter de navbar verdwijnt */
