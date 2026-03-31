@@ -117,7 +117,11 @@ button {
 }
 
 .loader-logo {
+  display: flex;
   justify-content: center;
+  width: 80px;
+  height: auto;
+  max-width: 100%;
 }
 
 .loader-content {
@@ -234,6 +238,9 @@ button {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  width: 80px;
+  height: auto;
+  max-width: 100%;
 }
 
 .logo-circle {
@@ -2337,6 +2344,9 @@ button {
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1.25rem;
+  width: 80px;
+  height: auto;
+  max-width: 100%;
 }
 
 .footer-logo-circle {
@@ -2520,8 +2530,9 @@ button {
 }
 
 .logo-img {
-  width: 50px;
+  width: 80px;
   height: auto;
+  max-width: 100%;
 }
 
 /* ========================================
